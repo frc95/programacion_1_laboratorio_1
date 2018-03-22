@@ -3,31 +3,19 @@
 
 int main()
 {
-    int numeroUno;
-    int numeroDos;
-    int numeroTres;
-    int mayor;
-    printf("Ingrese el primer numero\n");
-    scanf("%d",&numeroUno);
-    printf("Ingrese el segundo numero\n");
-    scanf("%d",&numeroDos);
-    printf("ingrese el tercer numero\n");
-    scanf("%d",&numeroTres);
-    if(numeroUno>numeroDos && numeroUno>numeroTres)
-    {
-        mayor=numeroUno;
-    }
-    else
-    {
-        if(numeroDos>numeroUno && numeroDos>numeroTres)
-        {
-            mayor=numeroDos;
-        }
-        else
-        {
-            mayor=numeroTres;
-        }
-    }
-    printf("El numero mayor es: %d",mayor);
+    char nombre [128];
+    float sueldo;
+    float aumento;
+    float sueldoFinal;
+    int porcentaje;
+    printf("Ingrese su nombre \n");
+    scanf("%s",nombre);
+    printf("Ingrese el sueldo \n");
+    scanf("%f",&sueldo);
+    printf("Ingrese el porcentaje \n");
+    scanf("%d",&porcentaje);
+    aumento=(porcentaje*sueldo)/100;
+    sueldoFinal=sueldo+aumento;
+    printf("Su nombre es: %s -- ,su sueldo es: %f -- \n,su aumento es del: %d %% -- ,su sueldo final es de: %f",nombre,sueldo,porcentaje,sueldoFinal);
     return 0;
 }
