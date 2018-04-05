@@ -1,0 +1,34 @@
+int pedirEntero(char[], int, int);
+
+int validadEntero(int, int, int, char[]);
+
+int main()
+{
+    int edad; //18-60
+    int legajo; //1-1000
+    int nota; //1-10
+    edad=pedirEntero(" edad: ", 18,60);
+    legajo=pedirEntero(" legajo: ", 1, 1000);
+    nota=pedirEntero(" nota: ", 1, 10);
+    printf("La edad es: %d , el legajo es : %d y la nota es: %d",edad,legajo,nota);
+    return 0;
+}
+
+int pedirEntero(char mensaje[], int min, int max)
+{
+    int numero;
+    printf("Ingrese %s", mensaje);
+    scanf("%d",&numero);
+    numero=validadEntero(numero,min,max,mensaje);
+    return numero;
+}
+
+int validadEntero(int dato, int min, int max,char mensaje [])
+{
+    while(dato<min || dato>max)
+    {
+        printf("Error: Reingrese %s", mensaje);
+        scanf("%d",&dato);
+    }
+    return dato;
+}
