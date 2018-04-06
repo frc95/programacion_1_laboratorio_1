@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Funciones.h"
+
+int main()
+{
+    int edad;
+    int legajo;
+    edad=pedirEntero(" edad: ", 18, 60);
+    legajo=pedirEntero(" lagajo: ", 1, 1000);
+    return 0;
+}
