@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524151379 source:d:\godoy\clase 7\workspacevectoresparalelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
