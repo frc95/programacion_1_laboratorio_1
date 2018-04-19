@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1523647152 source:c:\users\franco\desktop\programa con el code blocks\clase 6\workspacecadenastarea\funciones.c
+
+1523648565 source:c:\users\franco\desktop\programa con el code blocks\clase 6\workspacecadenastarea\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1523647152 c:\users\franco\desktop\programa con el code blocks\clase 6\workspacecadenastarea\funciones.h
+
