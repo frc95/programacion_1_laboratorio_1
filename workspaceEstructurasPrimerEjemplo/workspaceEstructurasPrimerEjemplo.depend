@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524755892 source:d:\godoy\clase 9\workspaceestructurasprimerejemplo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
